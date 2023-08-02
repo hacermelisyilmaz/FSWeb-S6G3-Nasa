@@ -1,8 +1,6 @@
 import React from "react";
 
-function PictureComp(props) {
-  const { pictureData } = props;
-
+function PictureComp({ pictureData }) {
   const style = {
     backgroundImage: `url(${pictureData.hdurl})`,
     backgroundSize: "cover",

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import PictureComp from "./PictureComp.js";
 
-function Pictures(props) {
-  const { data } = props;
+function Pictures({ data }) {
   const [pictureData, setPictureData] = useState(data);
   return (
     <div className="Pictures flex-container">
