@@ -72,3 +72,5 @@ const data = [
     url: "https://apod.nasa.gov/apod/image/2303/_GHR3094-venerelunafirma800.jpg",
   },
 ];
+
+export { data };
