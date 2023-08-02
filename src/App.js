@@ -4,7 +4,6 @@ import { data } from "./data.js";
 import "./App.css";
 
 function App() {
-  //console.log("App data: ", data);
   return (
     <div className="App">
       <header className="App-header">
