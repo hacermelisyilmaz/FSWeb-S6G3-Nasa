@@ -1,13 +1,21 @@
 import React from "react";
+import Pictures from "./components/pictures/Pictures.js";
+import { data } from "./data.js";
 import "./App.css";
 
 function App() {
+  //console.log("App data: ", data);
   return (
     <div className="App">
-      <p>
-        NASA uygulamasını yapmak için README.md dosyasıdaki talimatları takip edin
-		İyi eğlenceler! <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+      <header className="App-header">
+        <img
+          className="App-logo"
+          src="https://api.nasa.gov/assets/img/favicons/favicon-192.png"
+        />
+        <h1>Astronomy Picture of the Day</h1>
+      </header>
+      <Pictures data={data} />
+      <footer>NASA</footer>
     </div>
   );
 }
