@@ -1,6 +1,5 @@
 import React from "react";
-import Pictures from "./components/pictures/Pictures.js";
-import { data } from "./data.js";
+import Pictures from "./components/Pictures.js";
 import "./App.css";
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
         />
         <h1>Astronomy Picture of the Day</h1>
       </header>
-      <Pictures data={data} />
+      <Pictures />
       <footer>NASA</footer>
     </div>
   );
