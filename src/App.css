@@ -1,6 +1,6 @@
 .App {
+  background-position: bottom center;
   text-align: center;
-  background-color: #282c34;
   color: white;
 }
 
@@ -16,7 +16,6 @@
 }
 
 .App-Cover {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,14 +44,16 @@
 }
 
 .App-Main {
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   align-items: center;
-  padding: 5% 5%;
+  padding: 5vh 5%;
 }
 
 .Main {
-  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.493);
+  border-radius: 20px;
+  height: 90vh;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -70,6 +71,7 @@
   font-family: "Titillium Web", sans-serif;
   flex-direction: row;
   justify-content: space-around;
+  font-size: xx-small;
 }
 
 .header-title {
@@ -82,6 +84,7 @@
 }
 
 .Main-Info {
+  font-size: larger;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -103,13 +106,13 @@
 }
 
 .Main-Picture a img {
-  width: 45vw;
+  width: 40vw;
   border-radius: 20px;
   transition: transform 0.5s ease-in-out;
 }
 
 .Main-Right {
-  height: 100vh;
+  height: 100%;
   width: 10vw;
 }
 
