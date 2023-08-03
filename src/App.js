@@ -1,19 +1,20 @@
 import React from "react";
-import Pictures from "./components/Pictures.js";
+import Main from "./components/Main.js";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-Cover">
         <img
           className="App-logo"
           src="https://api.nasa.gov/assets/img/favicons/favicon-192.png"
         />
         <h1>Astronomy Picture of the Day</h1>
-      </header>
-      <Pictures />
-      <footer>NASA</footer>
+      </div>
+      <div className="App-Main flex-container">
+        <Main />
+      </div>
     </div>
   );
 }
